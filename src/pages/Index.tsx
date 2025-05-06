@@ -9,9 +9,9 @@ const Index = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <div className="flex-grow">
-        <div className="min-h-[80vh] flex flex-col items-center justify-center bg-gradient-to-b from-indigo-50 to-purple-50 px-4">
+        <div className="min-h-[80vh] flex flex-col items-center justify-center bg-gradient-to-b from-orange-50 to-amber-50 px-4">
           <div className="text-center max-w-3xl">
-            <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-indigo-600 text-transparent bg-clip-text">
+            <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-orange-500 to-amber-500 text-transparent bg-clip-text">
               Welcome to WhisperForms
             </h1>
             <p className="text-xl text-gray-700 mb-8">
@@ -19,7 +19,7 @@ const Index = () => {
               Build beautiful forms without paywalls or restrictions.
             </p>
             <Link to="/whisperforms">
-              <Button size="lg" className="bg-gradient-to-r from-purple-600 to-indigo-700 hover:from-purple-700 hover:to-indigo-800 shadow-lg shadow-purple-300/30 transition-all hover:shadow-purple-500/40">
+              <Button size="lg" className="bg-gradient-to-r from-orange-500 to-amber-600 hover:from-orange-600 hover:to-amber-700 shadow-lg shadow-orange-300/30 transition-all hover:shadow-orange-500/40">
                 <Sparkles className="mr-1" /> Explore WhisperForms
               </Button>
             </Link>
@@ -41,7 +41,7 @@ const Index = () => {
               ].map((feature, index) => (
                 <div 
                   key={index} 
-                  className="bg-white shadow-md rounded-lg px-5 py-3 border-l-4 border-purple-500 hover:shadow-lg transition-all hover:scale-105 transform duration-200"
+                  className="bg-white shadow-md rounded-lg px-5 py-3 border-l-4 border-orange-500 hover:shadow-lg transition-all hover:scale-105 transform duration-200"
                 >
                   {feature}
                 </div>

@@ -44,7 +44,7 @@
 
 /* WhisperForms specific styles */
 .gradient-text {
-  background: linear-gradient(90deg, #a855f7, #6366f1);
+  background: linear-gradient(90deg, #f6851f, #f9a24b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -80,10 +80,10 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #a855f7;
+  background: #f6851f;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #8b5cf6;
+  background: #e67712;
 }
